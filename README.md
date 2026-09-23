@@ -133,8 +133,7 @@ snapshot is large and includes PyTorch `2.1.0+cu121` plus
 ### Download
 
 The trained model bundle, demonstration satellite observations, and
-preprocessed demonstration cache are publicly available from the
-[Huayu-Global Google Drive folder](https://drive.google.com/drive/folders/1NwqR6k46gymsIS95bsrkzvV4oWkiMHc5?usp=sharing).
+preprocessed demonstration cache are publicly available from the [Quark Netdisk](https://pan.quark.cn/s/f1d68695558f).
 
 `assets.zip` is always required. For the bundled `2025-01-02 00:00 UTC`
 example, choose exactly one input option:
@@ -152,9 +151,9 @@ observation bundle:
 
 | Component | Required | Download | Approximate size | Final location |
 | --- | --- | --- | ---: | --- |
-| Trained models and support files | Yes | [`assets.zip`](https://drive.google.com/drive/folders/1NwqR6k46gymsIS95bsrkzvV4oWkiMHc5?usp=sharing) | 7.85 GiB compressed / 8.69 GiB extracted | `./assets/` |
-| Preprocessed demonstration cache | Option A | [`cache_20250102_0000.pkl`](https://drive.google.com/drive/folders/1NwqR6k46gymsIS95bsrkzvV4oWkiMHc5?usp=sharing) | Approximately 3.11 GiB | `./cache/cache_20250102_0000.pkl` |
-| Raw demonstration observations | Option B | [`data.zip`](https://drive.google.com/drive/folders/1NwqR6k46gymsIS95bsrkzvV4oWkiMHc5?usp=sharing) | 1.76 GiB compressed / 2.31 GiB extracted | `./data/` |
+| Trained models and support files | Yes | [`assets.zip`](https://pan.quark.cn/s/1bc23e590580) | 7.85 GiB compressed / 8.69 GiB extracted | `./assets/` |
+| Preprocessed demonstration cache | Option A | [`cache_20250102_0000.pkl`](https://pan.quark.cn/s/769fa8cded8f) | Approximately 3.11 GiB | `./cache/cache_20250102_0000.pkl` |
+| Raw demonstration observations | Option B | [`data.zip`](https://pan.quark.cn/s/70995a85501e) | 1.76 GiB compressed / 2.31 GiB extracted | `./data/` |
 | Observations for another timestamp | Yes for custom runs | Downloaded from the satellite data providers | Depends on period | `./data/` |
 | Companion `jacksung` Python package | Yes | Separate Python dependency | Environment-dependent | Active Python environment |
 
